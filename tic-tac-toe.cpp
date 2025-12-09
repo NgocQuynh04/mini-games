@@ -1,26 +1,19 @@
-//code a caro 6x6 game that can be played in the console
 #include <iostream>
 using namespace std;
 const int SIZE = 3;
 char board[SIZE][SIZE];
 void initializeBoard() {
     for (int i = 0; i < SIZE; i++) {
-        for (int j = 0; j < SIZE; j++) {
-            board[i][j] = '.';
-        }
+        for (int j = 0; j < SIZE; j++) board[i][j] = '.';
     }
 }
 void printBoard() {
     cout << "  ";
-    for (int j = 0; j < SIZE; j++) {
-        cout << j << " ";
-    }
+    for (int j = 0; j < SIZE; j++) cout << j << " ";
     cout << endl;
     for (int i = 0; i < SIZE; i++) {
         cout << i << " ";
-        for (int j = 0; j < SIZE; j++) {
-            cout << board[i][j] << " ";
-        }
+        for (int j = 0; j < SIZE; j++) cout << board[i][j] << " ";
         cout << endl;
     }
 }
@@ -72,3 +65,4 @@ int main() {
     cout << "It's a draw!" << endl;
     return 0;
 }
+
