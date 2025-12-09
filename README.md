@@ -1,2 +1,4 @@
-# flappy-bird
-Using C++ to code flappy bird game that can be played in the console
+# games
+Using C++ to code games that can be played in the console.
+1. Flappy bird
+2. Tic-tac-toe
